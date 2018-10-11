@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+    padding-top: 50px;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+ul {
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+img {
+    border: 1px solid black;
+    width: 200px;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.è);
+    font-size: 1.05em;
+}
+
+.btn {
+    border: 1px solid royalblue;
+    border-radius: 3%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 20px;
+    background: white;
+    color: royalblue;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: royalblue;
+    color: white;
+}
+
+.wrapper_shadow {
+    box-shadow: 5px 8px 10px 0px #656565;
+}
+
+.parcours_wrapper {
+    background-color: white;
+    padding: 20px 50px 50px 8px;
+    margin-bottom: 70px;
+}
+
+.dates {
+    font-weight: bold;
+}
+
+.dates, h1 {
+    color: royalblue;
+}
+
+.p50 {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
+#coords_wrapper {
+    background-color: white;
+}
+
+#coords p[class="col-sm-5"] {
+    font-weight: bold;
+    color: royalblue;
+}
+
+#photo {
+    background-color: white;
+    text-align: center;
+}
+
+#coords {
+    margin-top: 50px;
+}
+
