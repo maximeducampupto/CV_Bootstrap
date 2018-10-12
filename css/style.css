@@ -1,8 +1,7 @@
 html, body {
     margin: 0;
-    padding: 0;
+    padding: 50px 0 0 0;
     font-family: Montserrat, sans-serif;
-    padding-top: 50px;
 }
 
 body {
@@ -34,6 +33,9 @@ p {
 
 h1 {
     font-weight: bold;
+}
+
+header h1 {
     margin-bottom: 1.4em;
 }
 
@@ -57,17 +59,13 @@ h1 {
 }
 
 .wrapper_shadow {
-    box-shadow: 5px 8px 10px 0px #656565;
+    box-shadow: 5px 8px 10px 0 #656565;
+    padding-left: 25px;
 }
 
 .parcours_wrapper {
     background-color: white;
-    padding: 20px 50px 50px 8px;
     margin-bottom: 70px;
-}
-
-.parcours_wrapper h1 {
-    border-bottom: 1px solid royalblue;
 }
 
 .parcours li {
@@ -91,6 +89,8 @@ h1 {
 #coords_wrapper {
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #coords p[class="col-sm-5"] {
@@ -129,4 +129,8 @@ h1 {
 
 #mail {
     margin-bottom: 20px;
+}
+
+#exp_wrapper, #form_wrapper, #comp_wrapper {
+    border-top: 1px solid royalblue;
 }
