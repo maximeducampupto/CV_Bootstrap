@@ -44,6 +44,25 @@ header h1 {
     margin-top: 0;
 }
 
+input {
+    margin-bottom: 1.7em;
+}
+
+form button {
+    color: white !important;
+    background: royalblue !important;
+    margin-top: 2em!important;
+}
+
+form button:hover {
+    color: royalblue !important;
+    background: white !important;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.4) !important;
+}
+
 .btn {
     border: 1px solid royalblue;
     border-radius: 3%;
@@ -140,3 +159,20 @@ header h1 {
     border-top: 1px solid royalblue;
     padding-bottom: 1.5em;
 }
+
+#contact_wrapper {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    padding: 5em;
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 5px 8px 10px 0 #656565;
+}
+
+#contact_wrapper h1 {
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
