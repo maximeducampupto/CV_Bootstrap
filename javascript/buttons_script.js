@@ -25,7 +25,7 @@ document.getElementById('comp_button').addEventListener('click', function() {
 
     if (wrapper.style.display != 'none') {
         wrapper.style.display = 'none';
-        document.getElementById('comp_wrapper').innerHTML = '+';
+        document.getElementById('comp_button').innerHTML = '+';
     } else {
         wrapper.style.display = 'flex';
     }
