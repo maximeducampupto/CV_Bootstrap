@@ -1,32 +1,15 @@
-document.getElementById('exp_button').addEventListener('click', function() {
-   var wrapper = document.getElementById('exp_wrapper');
+document.addEventListener('click', function(e) {
+    if (e.target.tagName == 'BUTTON') {
+        var wrapper = e.target.parentElement.parentElement.nextElementSibling;
 
-   if (wrapper.style.display != 'none') {
-       wrapper.style.display = 'none';
-       document.getElementById('exp_button').innerHTML = '+';
-   } else {
-       wrapper.style.display = 'flex';
-   }
-});
-
-document.getElementById('form_button').addEventListener('click', function() {
-    var wrapper = document.getElementById('form_wrapper');
-
-    if (wrapper.style.display != 'none') {
-        wrapper.style.display = 'none';
-        document.getElementById('form_button').innerHTML = '+';
-    } else {
-        wrapper.style.display = 'flex';
+        switch(wrapper.style.display) {
+            case 'none':
+            wrapper.style.display = 'flex';
+            e.target.innerHTML = '-';
+            break;
+            default:
+                wrapper.style.display = 'none';
+                e.target.innerHTML = '+';
+        }
     }
-});
-
-document.getElementById('comp_button').addEventListener('click', function() {
-    var wrapper = document.getElementById('comp_wrapper');
-
-    if (wrapper.style.display != 'none') {
-        wrapper.style.display = 'none';
-        document.getElementById('comp_button').innerHTML = '+';
-    } else {
-        wrapper.style.display = 'flex';
-    }
-});
+})
