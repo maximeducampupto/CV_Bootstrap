@@ -133,4 +133,5 @@ header h1 {
 
 #exp_wrapper, #form_wrapper, #comp_wrapper {
     border-top: 1px solid royalblue;
+    padding-bottom: 1.5em;
 }
