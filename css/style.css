@@ -28,19 +28,27 @@ img {
 }
 
 p {
-    color: rgba(0, 0, 0, 0.è);
+    color: rgba(0, 0, 0, 0.7);
     font-size: 1.05em;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 1.4em;
 }
 
 .btn {
     border: 1px solid royalblue;
     border-radius: 3%;
+    margin-top: 1.4em;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: 20px;
     background: white;
     color: royalblue;
     font-weight: bold;
+    margin-bottom: 1.4em;
+
 }
 
 .btn:hover {
@@ -56,6 +64,14 @@ p {
     background-color: white;
     padding: 20px 50px 50px 8px;
     margin-bottom: 70px;
+}
+
+.parcours_wrapper h1 {
+    border-bottom: 1px solid royalblue;
+}
+
+.parcours li {
+    margin-bottom: 1.4em;
 }
 
 .dates {
@@ -74,6 +90,7 @@ p {
 
 #coords_wrapper {
     background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 #coords p[class="col-sm-5"] {
@@ -83,10 +100,33 @@ p {
 
 #photo {
     background-color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #coords {
     margin-top: 50px;
 }
 
+#header_fix {
+    padding: 50px;
+    background: white;
+}
+
+#social {
+    height: 150px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    font-size: 3em;
+    align-items: center;
+}
+
+#social i:hover {
+    color: #84afe1;
+}
+
+#mail {
+    margin-bottom: 20px;
+}
